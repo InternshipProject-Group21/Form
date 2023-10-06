@@ -1,0 +1,70 @@
+/* RequirementForm.css */
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Form container styling */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Center the form vertically */
+}
+.form-group div{
+    margin-top: 10px;
+}
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: green; /* Change heading color to green */
+}
+
+/* Input fields styling */
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.4; /* Add space between lines */
+    margin-bottom: 10px; /* Add space between fields */
+}
+
+/* Submit button styling */
+.form-group button[type="submit"] {
+    background-color: #007acc;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #005faa;
+    color: red;
+    height: 100px;
+    width: 100px;
+}
